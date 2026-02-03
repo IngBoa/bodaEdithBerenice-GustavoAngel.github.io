@@ -39,7 +39,10 @@ html {
 
 .hero {
   
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/anillo4.png") no-repeat;
+  background: linear-gradient(rgba(154, 165, 155, 0.55), rgba(255, 241, 204, 0.65)), rgba(0, 0, 0, 0.55) url("../image/anillo4.jpg") ;
+  background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
  
   background-attachment: fixed;
   background-size: cover;
@@ -189,8 +192,15 @@ font-size: 2rem;
 }
 
 .main-content .section-dark {
-  background-color: #F4E2E2;
-  padding: 80px 40px;
+
+    background:
+linear-gradient(rgba(154, 165, 155, 0.55), rgba(255, 241, 204, 0.65)),
+url("../image/I5.jpg");
+
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+  padding: 40px 20px;
 }
 
 .main-content .section-darker {
@@ -456,7 +466,7 @@ vertical-align: middle;
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #c28285;
+   background: linear-gradient(rgba(154, 165, 155, 0.55), rgba(255, 241, 204, 0.65));
   color: whitesmoke;    
 }
 
@@ -546,7 +556,7 @@ body.preloader-site {
 .preloader-wrapper {
   height: 100%;
   width: 100%;
-  background: #D8A9A8;
+  background: linear-gradient(rgba(154, 165, 155, 0.55), rgba(255, 241, 204, 0.65));
   position: fixed;
   top: 0;
   left: 0;
@@ -606,12 +616,12 @@ body.preloader-site {
 }
 
 .btn-cta {
-  background-color: #996E6D;
+  background-color: #BFA58A;
   width:  210px;
   height: 65px;
   color: white;
   font-size: 1.2rem;
-  border: 2px solid #996E6D;
+  border: 2px solid #BFA58A;
   border-radius: 10px;
   align-items: center;
   margin: 1rem;
@@ -670,57 +680,6 @@ body.preloader-site {
 }
 
 
-.foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/beatriz-perez-moya-M2T1j-6Fn8w-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-
-.foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/evelina-friman-hw_sKmjb0ns-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/jeremy-wong-weddings-464ps_nOflw-unsplash.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/jeremy-wong-weddings-K8KiCHh4WU4-unsplash.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/nathan-dumlao-5BB_atDT4oA-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-
-.foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/samantha-gades-x40Q9jrEVT0-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-
 
 .title-foto {
   font-size: 18pt;
@@ -743,9 +702,9 @@ body.preloader-site {
 
 .section-light {
   background-image: url(../image/divider-flowers-leaves.png);
-  background-position: bottom -30px center;
+  background-position: bottom -100px center;
   background-repeat: no-repeat;
-  background-size: initial;
+  background-size: 100% auto;
 }
 
 .instagram {
@@ -783,7 +742,7 @@ font-family: 'Allura', cursive;
 
    font-size: 25px;
    font-weight: 800;
-  color: #704705;
+  color: #C9A14A;
   text-align: center;
 
 }
@@ -792,7 +751,7 @@ font-family: 'Allura', cursive;
 .preview-2 { font-family: 'Delius', cursive;
 font-size: 20px;
   font-weight: 800;
-  color: #704705;
+  color: #C9A14A;
   text-align:center;
 }
 
@@ -800,13 +759,13 @@ font-size: 20px;
 .preview-3 { font-family: 'Allura';
  font-size: 25px;
   font-weight: 800;
-  color: #704705;
-  text-align:left;}
+  color: #C9A14A;
+  text-align:center;}
 
   .preview-4 { font-family: 'Dancing Script';
 font-size: 20px;
   font-weight: 800;
-  color: #704705;
+  color: #C9A14A;
   text-align:center;
 }
 
@@ -837,4 +796,175 @@ font-size: 20px;
   width: 150px;
   height: auto;
   vertical-align: center;
+}
+
+
+
+.foto-flotando {
+  animation: flotar 3s ease-in-out infinite;
+}
+
+@keyframes flotar {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.arco-wrapper {
+  position: relative;
+  width: 300px;
+  height: 380px;
+  margin:auto;
+}
+
+.foto-arco {
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:150px 150px 20px 20px;
+  z-index:2;
+}
+
+.marco-svg {
+  position:absolute;
+   transform: translate(15px, -45px);
+  inset:5;
+  z-index:5;
+  pointer-events:none;
+}
+
+#arco {
+  fill:none;
+  stroke:#d4af37;
+  stroke-width:10;
+  filter: drop-shadow(0 0 8px #d4af37);
+}
+
+
+
+.corazon-wrapper {
+  position: relative;
+  width: 300px;
+  height: 380px;
+  margin:auto;
+}
+
+/* FOTO */
+.foto-corazon {
+  position:absolute;
+  inset:20px;
+  width:calc(100% - 40px);
+  height:calc(100% - 40px);
+  object-fit:cover;
+  border-radius:50%;
+  z-index:2;
+}
+
+/* SVG */
+.corazon-svg {
+  position:absolute;
+   transform: translate(+5px, +135px);
+  inset:0;
+  z-index:3;
+ 
+  pointer-events:none;
+}
+
+#corazon {
+fill:none;
+  stroke:url(#gradiente-dorado);
+  stroke-width:2;
+  filter: drop-shadow(0 0 8px #f07e7e);
+}
+
+
+.iniciales {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+
+  font-size:42px;
+  font-family: Georgia, serif;
+  color:#d4af37;
+
+  opacity:0;               /* empiezan invisibles */
+  transition:opacity .3s;
+
+  z-index:4;
+  text-shadow:0 0 10px #d4af37;
+}
+
+.latido {
+  animation: latir 1.2s ease-in-out infinite;
+}
+
+@keyframes latir {
+  0%   { transform:translate(-50%, -50%) scale(1); }
+  50%  { transform:translate(-50%, -50%) scale(1.05); }
+  100% { transform:translate(-50%, -50%) scale(1); }
+}
+
+
+.foto {
+  transform: rotate(180deg);
+}
+
+.ramo {
+  display: block;
+  margin: auto auto -40px auto;
+  width: 80%;
+  transform: rotate(180deg);
+ 
+}
+
+.ramo2 {
+  display: block;
+  margin: auto auto -60px auto;
+  width: 80%;
+ 
+}
+
+.txt{
+   font-family: 'Dancing Script';
+  font-size: 20px;
+  font-weight: 800;
+  color: #704705;
+  text-align:center;
+   max-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.pen{
+   font-family: 'Dancing Script';
+  font-size: 30px;
+  font-weight: 800;
+  color: #704705;
+  text-align: center;
+
+  max-width: 600px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.ingboa{
+  font-family: 'Dancing Script';
+  font-size: 10px;
+  font-weight: 800;
+   color: #ffffff;
+  text-align: center;
 }
