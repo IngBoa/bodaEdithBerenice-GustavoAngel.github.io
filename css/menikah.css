@@ -1066,3 +1066,20 @@ fill:none;
   bottom: 6px;
   right: 12px;
 }
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 48px;
+  color: #c9a14a;
+  animation: subir 1.5s infinite;
+  opacity: 0.8;
+}
+
+@keyframes subir {
+  0%   { transform: translate(-50%, 0); }
+  50%  { transform: translate(-50%, -10px); }
+  100% { transform: translate(-50%, 0); }
+}
